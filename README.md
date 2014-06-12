@@ -13,11 +13,6 @@ A basic app to play with ember
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
 ## Building
 
 * `ember build`
