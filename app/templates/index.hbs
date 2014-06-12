@@ -1,0 +1,15 @@
+<div>
+{{input type="text" value=name placeholder="Enter your pony name"}}
+</div>
+
+<div>
+  <p>Hello, my pony name is: <b>{{name}}</b>, and I think Ember is great!</p>
+</div>
+<ul>
+{{#each this}}
+  <li>
+    {{noteBody}} </br>
+    <img {{bind-attr src="picture"}} />
+  </li>
+{{/each}}
+</ul>
